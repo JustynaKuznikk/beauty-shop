@@ -26,6 +26,8 @@ public class User {
     @Column(nullable = false, unique = true)
     private String password;
 
+    private Boolean isActive = Boolean.FALSE;
+
     @ElementCollection(fetch = FetchType.EAGER)
     @Column(name = "role")
     private Set<String> roles = new HashSet<>();
