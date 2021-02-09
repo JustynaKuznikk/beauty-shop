@@ -36,7 +36,7 @@ label {
     outline: 5px solid #e5f2f8;
 }
 #lower {
-    background: #ecf2f5;
+    background: #ffe7d1;
     width: 360px;
     padding: 5px 20px;
     margin-top: 20px;
@@ -45,10 +45,10 @@ label {
 button {
     width: 70px;
     padding: 5px 13px;
-    border: 1px solid #005f85;
-    color: white;
+    border: 1px solid silver;
+    color: #696969;
     text-shadow: 0 0 1px black;
-    background: #98c9dc;
+    background: white;
     position: relative;
     left: 180px;
 }
